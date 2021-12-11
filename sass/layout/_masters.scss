@@ -81,15 +81,16 @@
     justify-content: center;
     color: var(--main-color-icon);
     transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function);
+    &:hover,
+    &:focus {
+      background-color: var(--btn-text-color);
+      color: var(--color-btn);
+    }
   }
   
   .masters-social-icon {
     fill: currentColor;
   }
   
-  .masters-social-link:hover,
-  .masters-social-link:focus {
-    background-color: var(--btn-text-color);
-    color: var(--color-btn);
-  }
+
   
